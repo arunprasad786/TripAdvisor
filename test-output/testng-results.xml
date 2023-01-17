@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-16T22:26:06 IST" name="Default suite" finished-at="2023-01-16T22:26:17 IST" duration-ms="10615">
+  <suite started-at="2023-01-17T08:33:19 IST" name="Default suite" finished-at="2023-01-17T08:33:32 IST" duration-ms="13026">
     <groups>
     </groups>
-    <test started-at="2023-01-16T22:26:06 IST" name="Default test" finished-at="2023-01-16T22:26:17 IST" duration-ms="10615">
+    <test started-at="2023-01-17T08:33:19 IST" name="Default test" finished-at="2023-01-17T08:33:32 IST" duration-ms="13026">
       <class name="TestScenarios.FlightBooking">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestScenarios.FlightBooking@53fe15ff]" started-at="2023-01-16T22:26:06 IST" name="beforeTest" finished-at="2023-01-16T22:26:16 IST" duration-ms="9536" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestScenarios.FlightBooking@449a4f23]" started-at="2023-01-17T08:33:19 IST" name="beforeTest" finished-at="2023-01-17T08:33:24 IST" duration-ms="4879" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="HotelBooking()[pri:0, instance:TestScenarios.FlightBooking@53fe15ff]" started-at="2023-01-16T22:26:16 IST" name="HotelBooking" finished-at="2023-01-16T22:26:16 IST" duration-ms="592" status="PASS">
+        <test-method signature="HotelBooking()[pri:0, instance:TestScenarios.FlightBooking@449a4f23]" started-at="2023-01-17T08:33:24 IST" name="HotelBooking" finished-at="2023-01-17T08:33:31 IST" duration-ms="7393" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HotelBooking -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestScenarios.FlightBooking@53fe15ff]" started-at="2023-01-16T22:26:16 IST" name="afterTest" finished-at="2023-01-16T22:26:17 IST" duration-ms="425" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestScenarios.FlightBooking@449a4f23]" started-at="2023-01-17T08:33:31 IST" name="afterTest" finished-at="2023-01-17T08:33:32 IST" duration-ms="690" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->

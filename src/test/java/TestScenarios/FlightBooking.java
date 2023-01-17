@@ -1,5 +1,6 @@
 package TestScenarios;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
@@ -21,7 +22,7 @@ public class FlightBooking {
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 		driver.get("https://www.tripadvisor.in/");
 	}
@@ -31,7 +32,10 @@ public class FlightBooking {
 		HotelHomePage hotels = new HotelHomePage(driver);
 		hotels.selectHotelsTab();
 		hotels.enterHotelName("Park Elanza Coimbatore");
-
+		hotels.selectHotel();
+		hotels.selectFromDate();
+		hotels.selectToDate();
+		hotels.updateGuests();
 	}
 
 	@AfterTest
